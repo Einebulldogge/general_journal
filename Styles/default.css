@@ -61,3 +61,33 @@ h1 {
     height: 220px;
     margin-top: 3%;
 }
+
+#article-menu-container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+    margin-left: -50px;
+    padding: 100px;
+    border-right: 3px solid #663415;
+    border-top: 3px solid #663415;
+    border-bottom: 3px solid #663415;
+    border-radius: 50px;
+    width: 125px;
+}
+
+#article-menu-button {
+    border-radius: 20px;
+    border: 2px solid #663415;
+    width: 220px;
+    height: 150px;
+    margin-left: -30px;
+    background-color: #E8D9C5;
+}
+
+#article-menu-title {
+    font-size: 130%;
+    font-family: "Arial", serif;
+    color: #663415;
+    text-align: center;
+    margin-top: -75px;
+}
