@@ -5,7 +5,7 @@ body {
     background-color: #E8D9C5;
 }
 
-#title {
+#main-title {
     color: #663415;
     font-size: 900%;
     font-weight: 1;
@@ -13,7 +13,6 @@ body {
     padding-left: 15%;
     line-height: .9;
     font-family: "Manufacturing Consent", serif;
-    float: left;
 }
 
 h1 {
@@ -22,30 +21,43 @@ h1 {
     padding-left: 20%;
 }
 
-#headshot {
+#main-headshot {
     border-radius: 50%;
     border-color: #663415;
     border-width: 4px;
     border-style: solid;
 }
 
-#headshot-container {
+#main-headshot-container {
     display: block;
-    float: right;
     padding-right: 5%;
     padding-top: 2%;
     text-align: center;
 }
 
-#about-me-button {
+#main-about-me-button {
     border-radius: 50px;
-    border-color: #663415;
-    border-width: 3px;
+    border: 3px solid #663415;
     width: 250px;
     height: 40px;
     background-color: #E8D9C5;
-    color: #663415;
     font-size: 120%;
-    text-decoration: none;
     font-family: "Arial", serif;
+}
+
+#main-about-me-button-link {
+    color: #663415;
+    text-decoration: none;
+}
+
+#main-header-container {
+    display: flex;
+    flex-direction: row;
+    column-gap: 150px;
+}
+
+#main-header-divider {
+    border-right: 3px solid #663415;
+    height: 220px;
+    margin-top: 3%;
 }
