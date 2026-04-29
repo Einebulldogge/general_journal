@@ -2,9 +2,11 @@
 
 
 body {
-    background-color: #E8D9C5;
-    font-family: Arial;
-    border: 10px solid #663415;
+    background-color: white;
+    font-family:Arial;
+    overflow-y: auto;
+    border-top: 30px solid rgb(239, 245, 239);
+    border-bottom: 20px solid rgb(239, 245, 239);
     margin: auto;
 }
 

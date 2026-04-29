@@ -2,12 +2,7 @@
 
 
 
-body {
-    background-color: #E8D9C5;
-    font-family:Arial;
-    overflow-y: auto;
-    margin: auto;
-}
+
 
                                             /* Header section */
 
@@ -19,17 +14,17 @@ body {
 }
 
 #index-title {
-    color: #663415;
+    color: #4e9364;
     font-size: 900%;
     margin-top: 2%;
     font-weight: 1;
     padding-left: 15%;
     line-height: 90%;
-    font-family: "Manufacturing Consent", serif;
+    font-family: "Arial", serif;
 }
 
 #index-header-divider {
-    border-right: 4px solid #663415;
+    border-right: 4px solid #4e9364;;
     height: 220px;
     margin-top: 3%;
 }
@@ -46,7 +41,7 @@ body {
 #index-headshot {
     width: 200px;
     border-radius: 50%;
-    border-color: #663415;
+    border-color: #6b6d6b;
     border-width: 4px;
     border-style: solid;
     margin: auto;
@@ -54,16 +49,16 @@ body {
 
 #index-about-me-button {
     border-radius: 50px;
-    border: 3px solid #663415;
+    border: 3px solid #6b6d6b;
     width: 200px;
     height: 40px;
-    background-color: #d0ba9c;
+    background-color: #6b6d6b;
     font-size: 120%;
     font-family: "Arial", serif;
 }
 
 #index-about-me-button-link {
-    color: #663415;
+    color: white;
     text-decoration: none;
     margin: auto;
 }
@@ -78,16 +73,16 @@ body {
     padding-right: 20px;
     padding-left: 10px;
     padding-bottom: 10px;
-    border-right: 4px solid #663415;
-    border-top: 4px solid #663415;
-    border-bottom: 4px solid #663415;
+    border-right: 4px solid #6b6d6b;
+    border-top: 4px solid #6b6d6b;
+    border-bottom: 4px solid #6b6d6b;
     border-radius: 0 50px 50px 0;
     width: 220px;
     height: 800px;
     overflow-y: auto;
     overflow-x: hidden;
     margin-bottom: 10%;
-    scrollbar-color: #6f6f6d #E8D9C5;
+    scrollbar-color: #6f6f6d white;
     scrollbar-width: thin;
     direction: rtl;
     margin-top: -125px;
@@ -97,14 +92,11 @@ body {
 #article-menu-title-div {
     font-size: 130%;
     font-family: "Arial", serif;
-    color: #663415;
+    color: white;
     text-align: center;
     width: 250px;
     height: 45px;
-    background-color: #d0ba9c;
-    border-right: 4px solid #663415;
-    border-top: 4px solid #663415;
-    border-bottom: 4px solid #663415;;
+    background-color: #6b6d6b;
     border-radius: 0 50px 0 0;
     position: absolute;
     margin-top: -125px;
@@ -118,10 +110,10 @@ body {
 
 #article-menu-boxes  {
     border-radius: 25px;
-    border: 2px solid #663415;
+    border: 2px solid #6b6d6b;
     width: 200px;
     height: 200px;
-    background-color: #d0ba9c;
+    background-color: #4e9364;
     overflow: clip;
 }
 
@@ -135,7 +127,7 @@ body {
 #article-titles {
     margin: 4px;
     margin-bottom: -15px;
-    color: #663415;
+    color: rgb(250, 246, 236);
     text-align: center;
 }
 
@@ -154,7 +146,7 @@ body {
     width: 700px;
     height: 3000px;
     margin-bottom: 100px;
-    background-color: rgb(250, 246, 236);
+    background-color: rgb(239, 245, 239);
     border-radius: 25px;
     line-height: 2.0;
     padding: 2%;
@@ -165,7 +157,7 @@ body {
     height: 3000px;
     margin-bottom: 100px;
     margin-right: 40px;
-    background-color: rgb(204, 202, 198);
+    background-color: rgb(186, 222, 197);
     border-radius: 25px;
     line-height: 2.0;
     padding: 2%;
