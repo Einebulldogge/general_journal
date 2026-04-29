@@ -1,0 +1,134 @@
+/*https://coolors.co/b4bbcf-663415-4e2904-16501f-e8d9c5 */
+
+
+
+body {
+    background-color: #E8D9C5;
+    font-family: Arial;
+    overflow-y: auto;
+    margin: auto;
+   
+}
+
+#main-title {
+    color: #663415;
+    font-size: 900%;
+    margin-top: 2%;
+    font-weight: 1;
+    padding-left: 15%;
+    line-height: 90%;
+    font-family: "Manufacturing Consent", serif;
+}
+
+h1 {
+    color: #663415;
+    font-size: 500%;
+    padding-left: 20%;
+}
+
+#main-headshot-container {
+    display: block;
+    padding-right: 5%;
+    padding-top: 2%;
+    text-align: center;
+    margin: auto;
+    margin-top: 1%;
+}
+
+#main-headshot {
+    width: 200px;
+    border-radius: 50%;
+    border-color: #663415;
+    border-width: 4px;
+    border-style: solid;
+    margin: auto;
+}
+
+#main-about-me-button {
+    border-radius: 50px;
+    border: 3px solid #663415;
+    width: 250px;
+    height: 40px;
+    background-color: #d0ba9c;
+    font-size: 120%;
+    font-family: "Arial", serif;
+}
+
+#main-about-me-button-link {
+    color: #663415;
+    text-decoration: none;
+    margin: auto;
+}
+
+#main-header-container {
+    display: flex;
+    flex-direction: row;
+    column-gap: 10%;
+    margin: auto;
+}
+
+#main-header-divider {
+    border-right: 4px solid #663415;
+    height: 220px;
+    margin-top: 3%;
+}
+
+#article-menu-container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5%;
+    padding-top: 60px;
+    padding-right: 20px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    border-right: 4px solid #663415;
+    border-top: 4px solid #663415;
+    border-bottom: 4px solid #663415;
+    border-radius: 0 50px 50px 0;
+    width: 220px;
+    height: 800px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    margin-bottom: 10%;
+    scrollbar-color: #663415 #E8D9C5;
+    direction: rtl;
+}
+
+#article-menu-title-div {
+    font-size: 130%;
+    font-family: "Arial", serif;
+    color: #663415;
+    text-align: center;
+    width: 250px;
+    height: 45px;
+    background-color: #d0ba9c;
+    border-right: 4px solid #663415;
+    border-top: 4px solid #663415;
+    border-bottom: 4px solid #663415;;
+    border-radius: 0 50px 0 0;
+    position: absolute;
+    
+}
+
+#article-menu-title {
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+#article-menu-boxes  {
+    border-radius: 20px;
+    border: 2px solid #663415;
+    width: 200px;
+    height: 200px;
+    background-color: #E8D9C5;
+    background-color: #663415;
+    /*margin-left: 100px;*/
+}
+
+
+#article-thumbnails {
+    width: 100%;
+    height: 100%;
+    overflow-y: hidden;
+    border-radius: 0 0 50px 50px;
+}

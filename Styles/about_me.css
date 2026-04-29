@@ -4,7 +4,18 @@
 body {
     background-color: #E8D9C5;
     font-family: Arial;
-    border: 10px solid #663415;
     margin: auto;
 }
+
+h1 {
+    color: #663415;
+    font-size: 500%;
+    text-align: center;
+}
+
+
+
+
+
+
 
