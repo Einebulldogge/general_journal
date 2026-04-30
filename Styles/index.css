@@ -69,23 +69,22 @@
     display: flex;
     flex-direction: column;
     row-gap: 5%;
-    padding-top: 60px;
+    padding-top: 30px;
     padding-right: 20px;
     padding-left: 10px;
     padding-bottom: 10px;
     border-right: 4px solid #6b6d6b;
-    border-top: 4px solid #6b6d6b;
     border-bottom: 4px solid #6b6d6b;
-    border-radius: 0 50px 50px 0;
+    border-radius: 0 0 50px 0;
     width: 220px;
     height: 800px;
     overflow-y: auto;
     overflow-x: hidden;
     margin-bottom: 10%;
+    margin-top: -75px;
     scrollbar-color: #6f6f6d white;
     scrollbar-width: thin;
     direction: rtl;
-    margin-top: -125px;
     position: absolute;
 }
 
@@ -95,12 +94,13 @@
     color: white;
     text-align: center;
     width: 250px;
-    height: 45px;
+    height: 51px;
     background-color: #4e9364;
+    border-top: 4px solid #6f6f6d;
+    border-right: 4px solid #6f6f6d;
     border-radius: 0 50px 0 0;
     position: absolute;
-    margin-top: -125px;
-    order: initial;
+    margin-top: -130px;
 }
 
 #article-menu-title {
