@@ -10,8 +10,10 @@
 //font from google fonts (Manufacturing Consent)
 const fontLink = document.createElement('link');
 fontLink.rel = 'stylesheet';
-fontLink.href = "https://fonts.googleapis.com/css2?family=Manufacturing+Consent&display=swap";
+fontLink.href = "https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap";
 
 document.head.appendChild(fontLink);
+
+
 
 

@@ -11,6 +11,7 @@
     flex-direction: row;
     column-gap: 5%;
     margin: auto;
+    width: 100%;
 }
 
 #index-title {
@@ -20,11 +21,12 @@
     font-weight: 1;
     padding-left: 15%;
     line-height: 90%;
-    font-family: "Arial", serif;
+    font-family: "Arial";
+    font-weight:450;
 }
 
 #index-header-divider {
-    border-right: 4px solid #4e9364;;
+    border-left: 4px solid #4e9364;;
     height: 220px;
     margin-top: 3%;
 }
@@ -144,8 +146,9 @@
     width: 1100;
     height: 800;
 }
+
 #index-article {
-    
+    flex: 2;
     margin-left: 300px;
     width: 700px;
     height: 3000px;
@@ -157,6 +160,7 @@
 }
 
 #index-commentary {
+    flex: 1;
     width: 300px;
     height: 3000px;
     margin-bottom: 100px;
