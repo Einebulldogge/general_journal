@@ -1,16 +1,166 @@
 /*https://coolors.co/b4bbcf-663415-4e2904-16501f-e8d9c5 */
 
 
-body {
-    background-color: #E8D9C5;
-    font-family: Arial;
+
+
+
+                                            /* Header section */
+
+#index-header-container {
+    display: flex;
+    flex-direction: row;
+    column-gap: 5%;
     margin: auto;
 }
 
-h1 {
-    color: #663415;
-    font-size: 500%;
+#index-title {
+    color: #4e9364;
+    font-size: 900%;
+    margin-top: 2%;
+    font-weight: 1;
+    padding-left: 15%;
+    line-height: 90%;
+    font-family: "Arial", serif;
+}
+
+#index-header-divider {
+    border-right: 4px solid #4e9364;;
+    height: 220px;
+    margin-top: 3%;
+}
+
+#index-headshot-container {
+    display: block;
+    padding-right: 5%;
+    padding-top: 2%;
     text-align: center;
+    margin: auto;
+    margin-top: 0;
+}
+
+#index-headshot {
+    width: 200px;
+    border-radius: 50%;
+    border-color: #6b6d6b;
+    border-width: 4px;
+    border-style: solid;
+    margin: auto;
+}
+
+#index-about-me-button {
+    border-radius: 50px;
+    border: 3px solid #6b6d6b;
+    width: 200px;
+    height: 40px;
+    background-color: #6b6d6b;
+    font-size: 120%;
+    font-family: "Arial", serif;
+}
+
+#index-about-me-button-link {
+    color: white;
+    text-decoration: none;
+    margin: auto;
+}
+
+                                            /* Article menu section */
+
+#article-menu-container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    padding-top: 30px;
+    padding-right: 20px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    border-right: 4px solid #6b6d6b;
+    border-bottom: 4px solid #6b6d6b;
+    border-radius: 0 0 50px 0;
+    width: 220px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    margin-bottom: 10%;
+    margin-top: -75px;
+    scrollbar-color: #6f6f6d white;
+    scrollbar-width: thin;
+    direction: rtl;
+    position: absolute;
+}
+
+#article-menu-title-div {
+    font-size: 130%;
+    font-family: "Arial", serif;
+    color: white;
+    text-align: center;
+    width: 250px;
+    height: 51px;
+    background-color: #4e9364;
+    border-top: 4px solid #6f6f6d;
+    border-right: 4px solid #6f6f6d;
+    border-radius: 0 50px 0 0;
+    position: absolute;
+    margin-top: 0px;
+}
+
+#article-menu-title {
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+#article-menu-boxes  {
+    border-radius: 25px;
+    border: 2px solid #6b6d6b;
+    width: 200px;
+    height: 200px;
+    background-color: #4e9364;
+    overflow: clip;
+}
+
+#article-thumbnails {
+    width: 200px;
+    height: 200px;
+    margin-bottom: -30px;
+    border-radius: 0 0 25px 25px;
+}
+
+#article-titles {
+    margin: 4px;
+    margin-bottom: -15px;
+    color: rgb(250, 246, 236);
+    text-align: center;
+}
+
+                                            /* Article & Commentary section */
+
+#index-main {
+    
+    display: flex;
+    flex-direction: row;
+    column-gap: 3%;
+    margin-top: 50px;
+}
+
+#index-article {
+    
+    margin-left: 30px;
+    width: 960px;
+    height: 3000px;
+    margin-bottom: 100px;
+    background-color: rgb(239, 245, 239);
+    border-radius: 25px;
+    line-height: 2.0;
+    padding: 2%;
+}
+
+#index-commentary {
+    width: 300px;
+    height: 3000px;
+    margin-bottom: 100px;
+    margin-right: 40px;
+    background-color: rgb(186, 222, 197);
+    border-radius: 25px;
+    line-height: 2.0;
+    padding: 2%;
 }
 
 
@@ -18,4 +168,10 @@ h1 {
 
 
 
+                                                /* UNIQUE FORMATTING */
 
+#articles-header-titles {
+    color: #4e9364;
+    font-size: 300%;
+    margin: 4% 0 2% 5%;
+}

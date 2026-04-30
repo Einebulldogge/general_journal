@@ -140,6 +140,10 @@
     column-gap: 3%;
 }
 
+#index-article-and-commentary {
+    width: 1100;
+    height: 800;
+}
 #index-article {
     
     margin-left: 300px;
