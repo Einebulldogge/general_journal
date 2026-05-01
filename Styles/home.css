@@ -1,0 +1,97 @@
+html {
+    margin: -8px;
+}
+
+body {
+    background-color: rgb(236, 254, 231)
+}
+
+#home-header {
+    display: flex;
+    flex-direction: row;
+    column-gap: 5%;
+    background-color:rgb(168, 196, 165);
+    padding: 150px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+
+        h1 {
+            text-align: left;
+            font-size: 800%;
+            color: rgb(109, 138, 106);
+            -webkit-text-stroke: 3px rgb(0, 0, 0);
+            line-height: .9;
+            margin-right: 20%
+        }
+
+         #home-divider {
+            border: 1px solid black; 
+            background-color: rgb(109, 138, 106);
+            width: 2px;
+            margin: 75px;
+        }
+
+        #home-headshot {
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+            border: 3px double rgb(0, 0, 0);
+            background-color: rgb(109, 138, 106);
+            margin-top: 100px;
+            margin-bottom: 20px;
+        }
+
+        #home-about-me-button {
+            background-color: rgb(109, 138, 106);
+            text-align: center;
+            border-radius: 30px;
+            border: 2px solid black;
+            width: 235px;
+            padding: 4%;
+            color: rgb(109, 138, 106);
+            -webkit-text-stroke: 1px rgb(0, 0, 0);
+            font-size: 30px;
+        }
+
+                #home-about-me-button:hover {
+                    cursor: pointer; 
+                }
+
+ 
+            
+
+
+
+
+
+
+
+#home-article-archive {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 100px;
+}
+       
+        #home-articles {
+            display:grid;
+            background-color: lightgray;
+            width: 300px;
+            height: 300px;
+            text-align: center;
+            margin: 10%;
+            overflow:clip;
+            border-radius: 25px;
+            border: 2px solid black;
+            box-shadow: 0 2px 2px;
+        }
+
+        img {
+            width: 300px;
+            border-radius: 0 0 25px 25px;
+        }
+
+                img:hover {
+                    box-shadow: 0 5px 5px;
+                    cursor: pointer; 
+                }

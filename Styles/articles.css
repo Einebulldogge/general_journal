@@ -6,14 +6,14 @@
 
                                             /* Header section */
 
-#index-header-container {
+#articles-header-container {
     display: flex;
     flex-direction: row;
     column-gap: 5%;
     margin: auto;
 }
 
-#index-title {
+#articles-title {
     color: #4e9364;
     font-size: 900%;
     margin-top: 2%;
@@ -23,13 +23,13 @@
     font-family: "Arial", serif;
 }
 
-#index-header-divider {
+#articles-header-divider {
     border-right: 4px solid #4e9364;;
     height: 220px;
     margin-top: 3%;
 }
 
-#index-headshot-container {
+#articles-headshot-container {
     display: block;
     padding-right: 5%;
     padding-top: 2%;
@@ -38,7 +38,7 @@
     margin-top: 0;
 }
 
-#index-headshot {
+#articles-headshot {
     width: 200px;
     border-radius: 50%;
     border-color: #6b6d6b;
@@ -47,7 +47,7 @@
     margin: auto;
 }
 
-#index-about-me-button {
+#articles-about-me-button {
     border-radius: 50px;
     border: 3px solid #6b6d6b;
     width: 200px;
@@ -57,7 +57,7 @@
     font-family: "Arial", serif;
 }
 
-#index-about-me-button-link {
+#articles-about-me-button-link {
     color: white;
     text-decoration: none;
     margin: auto;
@@ -132,7 +132,7 @@
 
                                             /* Article & Commentary section */
 
-#index-main {
+#articles-main {
     background-color:#dddedd;
     display: flex;
     flex-direction: row;
@@ -143,7 +143,7 @@
     border-right: none;
 }
 
-#index-article {
+#articles-article {
     flex: 2;
     max-width: 100%;
     margin-top: 3%;
@@ -155,7 +155,7 @@
     padding: 2%;
 }
 
-#index-commentary {
+#articles-commentary {
     flex: 1;
     width: 100%;
     margin-bottom: 100px;
