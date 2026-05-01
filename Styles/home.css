@@ -71,6 +71,7 @@ body {
     display: grid;
     grid-template-columns: auto auto auto;
     margin: 100px;
+    gap: 10%;
 }
        
         #home-articles {
