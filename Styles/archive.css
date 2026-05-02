@@ -6,7 +6,7 @@ body {
     background-color: rgb(236, 254, 231)
 }
 
-#home-header {
+#archive-header {
     display: flex;
     flex-direction: row;
     column-gap: 5%;
@@ -25,14 +25,14 @@ body {
             margin-right: 20%
         }
 
-         #home-divider {
+         #archive-divider {
             border: 1px solid black; 
             background-color: rgb(109, 138, 106);
             width: 2px;
             margin: 75px;
         }
 
-        #home-headshot {
+        #archive-headshot {
             width: 250px;
             height: 250px;
             border-radius: 50%;
@@ -42,7 +42,7 @@ body {
             margin-bottom: 20px;
         }
 
-        #home-about-me-button {
+        #archive-about-me-button {
             background-color: rgb(109, 138, 106);
             text-align: center;
             border-radius: 30px;
@@ -54,7 +54,7 @@ body {
             font-size: 30px;
         }
 
-                #home-about-me-button:hover {
+                #archive-about-me-button:hover {
                     cursor: pointer; 
                 }
 
@@ -67,18 +67,18 @@ body {
 
 
 
-#home-article-archive {
+#archive-article-archive {
     display: grid;
     grid-template-columns: auto auto auto;
     margin: 100px;
     gap: 10%;
 }
        
-        #home-articles {
+        #archive-articles {
             display:grid;
-            background-color: lightgray;
-            width: 300px;
-            height: 300px;
+            background-color: #4e9364;
+            width: 350px;
+            height: 350px;
             text-align: center;
             margin: 10%;
             overflow:clip;
@@ -87,12 +87,35 @@ body {
             box-shadow: 0 2px 2px;
         }
 
+        #archive-articles {
+            margin: 0px;
+            margin-bottom: -15px;
+            color: rgb(250, 246, 236);
+            text-align: center;
+            font-size: 200%;
+        }
+
         img {
-            width: 300px;
+            width: 350px;
             border-radius: 0 0 25px 25px;
+            margin-top: -15%;
         }
 
                 img:hover {
                     box-shadow: 0 5px 5px;
                     cursor: pointer; 
                 }
+
+
+
+
+
+
+
+    
+            
+
+
+
+
+    

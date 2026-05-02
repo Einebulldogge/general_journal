@@ -5,15 +5,17 @@ body {
     background-color:rgb(255, 255, 255);
     font-family:Arial;
     overflow-y: auto;
-    border-top: 30px solid rgb(239, 245, 239);
+    border-top: 50px solid rgb(239, 245, 239);
     border-bottom: 20px solid rgb(239, 245, 239);
     margin: auto;
 }
 
 #article-menu-boxes:hover {
     box-shadow: 0 0 5px 5px rgba(0,0,0,0.2);
+    cursor: pointer;
 }
 
 #index-about-me-button:hover, #articles-about-me-button:hover {
     box-shadow: 0 0 2px 2px rgba(0,0,0,0.2);
+    cursor: pointer;
 }

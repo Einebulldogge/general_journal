@@ -10,25 +10,25 @@
     display: flex;
     flex-direction: row;
     column-gap: 5%;
-    margin: auto;
+    margin: 0%;
     width: 100%;
 }
 
 #index-title {
     color: #4e9364;
-    font-size: 900%;
-    margin-top: 2%;
+    font-size: 800%;
+    margin-top: 1%;
     font-weight: 1;
-    padding-left: 15%;
-    line-height: 90%;
+    padding-left: 25%;
+    line-height: 100%;
     font-family: "Arial";
     font-weight:450;
 }
 
 #index-header-divider {
     border-left: 4px solid #4e9364;;
-    height: 220px;
-    margin-top: 3%;
+    height: 300px;
+    margin-top: 6.5%;
 }
 
 #index-headshot-container {
@@ -37,7 +37,7 @@
     padding-top: 2%;
     text-align: center;
     margin: auto;
-    margin-top: 1%;
+    margin-top: 6.5%;
 }
 
 #index-headshot {
@@ -86,15 +86,15 @@
     border-bottom: 4px solid #6b6d6b;
     border-radius: 0 0 50px 0;
     width: 220px;
-    height: 800px;
+    height: 500px;
     overflow-y: auto;
     overflow-x: hidden;
     margin-bottom: 10%;
-    margin-top: -75px;
+    margin-top: -395px;
     scrollbar-color: #6f6f6d white;
     scrollbar-width: thin;
     direction: rtl;
-    position: absolute;
+    position: fixed;
 }
 
 #article-menu-title-div {
@@ -109,7 +109,8 @@
     border-right: 4px solid #6f6f6d;
     border-radius: 0 50px 0 0;
     position: absolute;
-    margin-top: -130px;
+    margin-top: -450px;
+    position: fixed;
 }
 
 #article-menu-title {
@@ -194,4 +195,50 @@
     border-radius: 25px 0 0 25px;
     line-height: 2.0;
     padding: 2%;
+}
+
+
+
+
+
+
+
+
+
+
+                                             /* UNIQUE ARTICLE FORMATTING */
+
+
+
+#index-articles-header-titles {
+    color: #4e9364;
+    font-size: 300%;
+    margin: 4% 0 2% 5%;
+}
+
+#index-inline-article-headings {
+    display: inline;
+}
+.index-article-A-pics {
+    width: 100%;
+    height: auto;
+    border:2px solid;
+    position: relative;
+}
+
+
+
+#expanded-archive-button {
+        border-radius: 25px;
+        background-color:rgb(186, 222, 197);
+        width: 300px;
+        height: 50px;
+        font-size: 100%;
+        text-decoration: none;
+    }
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight:200
 }
