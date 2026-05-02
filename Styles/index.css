@@ -1,6 +1,13 @@
 /*https://coolors.co/b4bbcf-663415-4e2904-16501f-e8d9c5 */
 
-
+body {
+    background-color:white;
+    font-family:Arial;
+    overflow-y: auto;
+    border-top: 50px solid rgb(186, 222, 197);
+    border-bottom: 50px solid rgb(186, 222, 197);
+    margin: auto;
+}
 
 
 
