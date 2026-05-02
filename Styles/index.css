@@ -17,16 +17,17 @@
 #index-title {
     color: #4e9364;
     font-size: 800%;
-    margin-top: 1%;
+    margin-top: 5%;
     font-weight: 1;
     padding-left: 25%;
     line-height: 100%;
     font-family: "Arial";
     font-weight:450;
+    -webkit-text-stroke: 2px #6b6d6b;
 }
 
 #index-header-divider {
-    border-left: 4px solid #4e9364;;
+    border-left: 4px solid #4e9364;
     height: 300px;
     margin-top: 6.5%;
 }
@@ -86,11 +87,11 @@
     border-bottom: 4px solid #6b6d6b;
     border-radius: 0 0 50px 0;
     width: 220px;
-    height: 500px;
+    height: 460px;
     overflow-y: auto;
     overflow-x: hidden;
     margin-bottom: 10%;
-    margin-top: -395px;
+    margin-top: -410px;
     scrollbar-color: #6f6f6d white;
     scrollbar-width: thin;
     direction: rtl;
@@ -109,7 +110,7 @@
     border-right: 4px solid #6f6f6d;
     border-radius: 0 50px 0 0;
     position: absolute;
-    margin-top: -450px;
+    margin-top: -465px;
     position: fixed;
 }
 
@@ -213,11 +214,7 @@
 
 
 
-#index-articles-header-titles {
-    color: #4e9364;
-    font-size: 300%;
-    margin: 4% 0 2% 5%;
-}
+
 
 #index-inline-article-headings {
     display: inline;

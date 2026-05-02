@@ -2,11 +2,11 @@
 
 
 body {
-    background-color:rgb(255, 255, 255);
+    background-color:white;
     font-family:Arial;
     overflow-y: auto;
-    border-top: 50px solid rgb(239, 245, 239);
-    border-bottom: 20px solid rgb(239, 245, 239);
+    border-top: 50px solid rgb(186, 222, 197);
+    border-bottom: 50px solid rgb(186, 222, 197);
     margin: auto;
 }
 
@@ -18,4 +18,17 @@ body {
 #index-about-me-button:hover, #articles-about-me-button:hover {
     box-shadow: 0 0 2px 2px rgba(0,0,0,0.2);
     cursor: pointer;
+}
+
+
+#commentary-button {
+    width: fit-content;
+    height: 30px;
+    background-color: #4e9364;
+    border-radius: 25px;
+}
+
+#commentary-link {
+    color: white;
+    font-weight:500;
 }
