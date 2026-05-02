@@ -16,4 +16,19 @@ document.head.appendChild(fontLink);
 
 
 
+document.querySelectorAll('.commentary-link').forEach(link => {
+    link.addEventListeners('click', function(e) {
+        e.preventDefault();
+
+        const targetID = this.getAttribute('href');
+        const targetElement = document.querySelector(targetId);
+
+        if(targetElement) {
+            targetElement.scrollIntoView({
+            });
+        }
+    });
+});
+
+
 

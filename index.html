@@ -85,7 +85,10 @@
 
         <br><br>Now, to be clear, not all software products involve consumption-based pricing. If we take Salesforce, for example, it still employs seat-based pricing for many of its traditional CRM products, but has introduced consumption-based / hybrid pricing for its Agentforce and Data 360 platforms. Due to the highly competitive and fast-changing nature of the industry, Salesforce has been experimenting with a range of different pricing models in the past couple of years. Of course, with massive changes happening to pricing models, the inherent risks of revenue and revenue-adjacent accounts have heightened. In the rest of this article, we will cover how these changing pricing models are affecting audits and their implications for the future. 
 
-        <br><br><h3 id="index-inline-article-headings">Risks for Auditors:</h3>
+        <br><br><h3>Risks for Auditors:</h3></a>
+
+        <button type="button"><a id="commentary-button" href="#linked-commentary">Click to see commentary</a></button><br>         
+
         <p id="index-inline-article-headings">When assessing risks, auditors use the audit risk model:</p>
 
         <br><br><img class="index-article-A-pics" src="Images/Article_A/audit_risk_model.png" alt="Audit risk model equation">
@@ -126,13 +129,33 @@
                     <div id="index-commentary">
                         <!-- Commentary attached to the latest article -->
                         <h3> Commentary</h3>
-                        <nav><button><a href="home.html">Go to new Home</a></button></nav>
-                        <p><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>This has proved to be true, deals like these continue to be used and leveraged by hyperscalers! </p>
+                        <p>Hello World Hello WorldHello WorldHello WorldHello WorldHello WorldHello WorldHello WorldHello WorldHello WorldHello WorldHello WorldHello WorldHello WorldHello WorldHello WorldHello WorldHello WorldHello WorldHello WorldHello WorldHello WorldHello WorldHello WorldHello WorldHello WorldHello WorldHello WorldHello WorldHello WorldHello Hello WorldHello WorldHello WorldHello WorldHello WorldHello WorldHello WorldHello WorldHello WorldHello WorldHello WorldHello WorldHello WorldHello WorldHello WorldHello WorldHello WorldHello WorldHello WorldHello WorldHello WorldHello WorldHello WorldHello WorldHello WorldHello WorldHello WorldHello WorldHello WorldHello WorldHello WorldHello WorldHello WorldHello WorldHello WorldHello WorldHello WorldHello WorldHello WorldHello WorldHello WorldHello WorldHello WorlHello WorldHello WorldHello WorldHello WorldHello WorldHello WorldHello WorldHello WorldHello WorldHello WorldHello WorldHello WorldHello WorldHello WorldHello WorldHello WorldHello WorldHello WorldHello WorldHello WorldHello WorldHello WorldHello WorldHello WorldHello WorldHello WorldHello WorldHello WorldHello WorldHello WorldHello WorldHello WorldHello WorldHello WorldHello WorldHello WorldHello WorldHello WorldHello WorldHello WorldHello WorldHello WorldHello WorldHello WorldHello WorldHello WorldHello WorldHello WorldHello WorldHello WorldHello WorldHello WorldHello WorldHello WorldHello WorldHello WorldHello WorldHello WorldHello WorldHello WorldHello WorldHello WorldHello WorldHello WorldHello WorldHello WorlddHello WorldHello WorldHello WorldHello <br><br><h2 id="linked-commentary">This is where I want to be </h2><br><br>WorldHello WorldWorldHello WorldHello WorldHello WorldHello WorldHello WorldHello WorldHello WorldHello WorldHello WorldHello World</p>
                     </div>
                 </div>  
             </div> 
         </div>
     </main>
-    
+    <script>
+        document.querySelectorAll('#commentary-button').forEach(link => {
+            link.addEventListener('click', function(e) {
+                e.preventDefault();
+
+                const targetID = this.getAttribute('href');
+                const targetElement = document.querySelector(targetID);
+
+                if (targetElement) {
+                    const commentaryDiv = targetElement.parentElement;
+
+                    const linkTop = this.getBoundingClientRect().top;
+                    const targetTop = targetElement.getBoundingClientRect().top;
+
+                    commentaryDiv.scrollBy({
+                        top: targetTop - linkTop,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+    </script>
 </body>
 </html>
