@@ -1,7 +1,15 @@
 /*https://coolors.co/b4bbcf-663415-4e2904-16501f-e8d9c5 */
 
 
+body {
+    display: flex;
+    flex-direction: column;
+    
+}
 
+main {
+    flex: 1;
+}
 
 
                                             /* Header section */
@@ -165,7 +173,6 @@
     line-height: 2.0;
     padding: 2%;
     margin-top: 3%;
-    
 }
 
 

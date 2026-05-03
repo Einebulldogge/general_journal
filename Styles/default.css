@@ -24,3 +24,7 @@
     color: white;
     font-weight:500;
 }
+
+button:hover {
+    box-shadow: 2px black;
+}
