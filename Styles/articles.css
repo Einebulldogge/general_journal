@@ -71,76 +71,13 @@ main {
     margin: auto;
 }
 
-                                            /* Article menu section */
+                                    
 
-#article-menu-container {
-    display: flex;
-    flex-direction: column;
-    row-gap: 30px;
-    padding-top: 30px;
-    padding-right: 20px;
-    padding-left: 10px;
-    padding-bottom: 10px;
-    border-right: 4px solid #6b6d6b;
-    border-bottom: 4px solid #6b6d6b;
-    border-radius: 0 0 50px 0;
-    width: 220px;
-    overflow-y: auto;
-    overflow-x: hidden;
-    margin-bottom: 10%;
-    margin-top: -75px;
-    scrollbar-color: #6f6f6d white;
-    scrollbar-width: thin;
-    direction: rtl;
-    position: absolute;
-}
 
-#article-menu-title-div {
-    font-size: 130%;
-    font-family: "Arial", serif;
-    color: white;
-    text-align: center;
-    width: 250px;
-    height: 51px;
-    background-color: #4e9364;
-    border-top: 4px solid #6f6f6d;
-    border-right: 4px solid #6f6f6d;
-    border-radius: 0 50px 0 0;
-    position: absolute;
-    margin-top: 0px;
-}
-
-#article-menu-title {
-    margin-bottom: 5px;
-    margin-top: 10px;
-}
-
-#article-menu-boxes  {
-    border-radius: 25px;
-    border: 2px solid #6b6d6b;
-    width: 200px;
-    height: 200px;
-    background-color: #4e9364;
-    overflow: clip;
-}
-
-#article-thumbnails {
-    width: 200px;
-    height: 200px;
-    margin-bottom: -30px;
-    border-radius: 0 0 25px 25px;
-}
-
-#article-titles {
-    margin: 4px;
-    margin-bottom: -15px;
-    color: rgb(250, 246, 236);
-    text-align: center;
-}
 
                                             /* Article & Commentary section */
 
-#articles-main {
+#articles-article-and-commentary {
     background-color:#dddedd;
     display: flex;
     flex-direction: row;
@@ -165,7 +102,8 @@ main {
 
 #articles-commentary {
     flex: 1;
-    width: 100%;
+    width: auto;
+    height: 600px;
     margin-bottom: 100px;
     margin-right: 0px;
     background-color: rgb(186, 222, 197);
@@ -173,6 +111,9 @@ main {
     line-height: 2.0;
     padding: 2%;
     margin-top: 3%;
+    overflow-y: auto;
+    position: sticky;
+    top: 50px;
 }
 
 
@@ -188,7 +129,7 @@ main {
     margin: 4% 0 2% 5%;
 }
 
-#inline-article-headings {
+#article-inline-article-headings {
     display: inline;
 }
 .article-A-pics {

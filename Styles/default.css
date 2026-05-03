@@ -1,6 +1,8 @@
 /*https://coolors.co/b4bbcf-663415-4e2904-16501f-e8d9c5 */
 
-
+body {
+    font-family: Arial;
+}
 
 #article-menu-boxes:hover, #archive-articles:hover {
     box-shadow: 0 0 5px 5px rgba(0,0,0,0.2);
