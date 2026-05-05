@@ -184,6 +184,20 @@ body {
                     padding: 2%;
                 }
 
+
+                        #index-article-title {
+                            line-height: 1.4;
+                            text-align: left;
+                            color: #6b6d6b;
+                        }
+
+
+                        #index-article-main-picture {
+                            width: 70%;
+                            margin-left: 15%;
+                            border-radius: 25px;
+                        }
+
                 #index-commentary {
                     flex: 1;
                     width: auto;
@@ -196,7 +210,7 @@ body {
                     padding: 2%;
                     overflow-y: auto;
                     position: sticky;
-                    top: 50px;
+                    top: 6%;
                 }
 
 
