@@ -95,6 +95,7 @@ body {
             scrollbar-width: thin;
             direction: rtl;
             position: fixed;
+            background-color: #dddedd;
         }
 
                 #article-menu-title-div {
@@ -129,15 +130,16 @@ body {
                                 #article-thumbnails {
                                     width: 200px;
                                     height: 200px;
-                                    margin-bottom: -30px;
+                                    margin-top: -5px;
                                     border-radius: 0 0 25px 25px;
+                                    border-top: 2px solid #6b6d6b;
                                 }
 
                                 #article-titles {
-                                    margin: 4px;
-                                    margin-bottom: -15px;
+                                    margin-top: 5px;
                                     color: rgb(250, 246, 236);
                                     text-align: center;
+                                    text-decoration: none;
                                 }
 
 #index-intro-article-and-commentary {
@@ -217,19 +219,28 @@ body {
 }
 
 
-#index-archive-button {
-        border-radius: 25px;
-        background-color:rgb(186, 222, 197);
-        width: 300px;
-        height: 50px;
-        font-size: 100%;
-        text-decoration: none;
-    }
-
 #index-archive-button-link {
     text-decoration: none;
     color: black;
-    font-weight:200
+    font-weight: 200;
+    text-align: center;
 }
+
+
+
+            #index-archive-button {
+                    border-radius: 50px;
+                    background-color:rgb(186, 222, 197);
+                    width: 320px;
+                    line-height: .9;
+                    text-decoration: none;
+                    border: 2px solid #6b6d6b;
+                }
+
+
+            #index-archive-button-text {
+                font-size: 110%;
+            }
+                
 
 

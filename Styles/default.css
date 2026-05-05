@@ -4,12 +4,7 @@ body {
     font-family: Arial;
 }
 
-#article-menu-boxes:hover, #archive-articles:hover {
-    box-shadow: 0 0 5px 5px rgba(0,0,0,0.2);
-    cursor: pointer;
-}
-
-#index-about-me-button:hover, #articles-about-me-button:hover, #archive-about-me-button:hover {
+#article-menu-boxes:hover, #archive-articles:hover, #index-archive-button:hover, #index-about-me-button:hover, #articles-about-me-button:hover, #archive-about-me-button:hover {
     box-shadow: 0 0 2px 2px rgba(0,0,0,0.2);
     cursor: pointer;
 }
@@ -27,6 +22,7 @@ body {
     font-weight:500;
 }
 
-button:hover {
-    box-shadow: 2px black;
+
+a {
+    text-decoration: none;
 }
