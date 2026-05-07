@@ -36,7 +36,7 @@ body {
         }
 
         #index-headshot-container {
-            display:block;
+            display: block;
             padding-right: 5%;
             padding-top: 2%;
             text-align: center;
@@ -54,16 +54,18 @@ body {
 
                 #index-about-me-button {
                     border-radius: 50px;
+                    margin-inline: auto;
                     border: 3px solid #6b6d6b;
                     width: 200px;
                     height: 40px;
-                    background-color: #6b6d6b;
+                    background-color: #6f6f6d;
                     font-size: 120%;
                 }
 
                 #index-about-me-button-link {
                     color: white;
                     text-decoration: none;
+                    line-height: .2;
                 }
 
                                             /* Main Flexbox. */

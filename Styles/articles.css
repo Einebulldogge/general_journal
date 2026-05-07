@@ -57,6 +57,7 @@ main {
 }
 
 #articles-about-me-button {
+    
     border-radius: 50px;
     border: 3px solid #6b6d6b;
     width: 200px;
@@ -64,13 +65,16 @@ main {
     background-color: #6b6d6b;
     font-size: 120%;
     font-family: "Arial", serif;
+    margin-bottom: 30px;
 }
 
 #articles-about-me-button-link {
+    
     color: white;
     text-decoration: none;
-    margin: auto;
+    line-height: .2;
 }
+
 
                                     
 
