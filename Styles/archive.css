@@ -1,19 +1,38 @@
 
 
-html {
-    height: 100%;
 
-}
 
 
 body {
     height: 100%;
     background-color: rgb(255, 255, 255);
     border-top: 50px solid rgb(186, 222, 197);
-    border-bottom: 50px solid rgb(186, 222, 197);
+    /*border-bottom: 50px solid rgb(186, 222, 197);*/
     margin: auto;
+    padding-bottom: 500px;
 }
 
+header {
+    background-color: rgb(239, 245, 239);
+}
+
+        #archive-back-to-home-button {
+            border-radius: 0px 50px 50px 0;
+            border: 3px solid #6b6d6b;
+            width: 200px;
+            height: 40px;
+            background-color: #6b6d6b;
+            font-size: 120%;
+            margin-top: 50px;
+        }
+
+        #archive-back-to-home-link {
+            color: white;
+            text-decoration: none;
+            margin: auto;
+            line-height: .2;
+        }
+ 
 
 #archive-header {
     display: flex;
@@ -39,7 +58,7 @@ body {
 #archive-title {
     color: #4e9364;
     font-size: 800%;
-    margin-top: 12%;
+    margin-top: 7%;
     font-weight: 1;
     padding-left: 10%;
     padding-right: 10%;
@@ -52,16 +71,16 @@ body {
 #archive-header-divider {
     border-left: 4px solid #4e9364;
     height: 300px;
-    margin-top: 6.5%;
+    margin-top: 2%;
 }
 
 #archive-headshot-container {
     display: block;
     padding-right: 5%;
-    padding-top: 2%;
+    padding-top: -2%;
     text-align: center;
     margin: auto;
-    margin-top: 6.5%;
+    margin-top: 4.5%;
 }
 
 #archive-headshot {
@@ -81,7 +100,6 @@ body {
     height: 40px;
     background-color: #6b6d6b;
     font-size: 120%;
-    font-family: "Arial", serif;
 }
 
 #archive-about-me-button-link {

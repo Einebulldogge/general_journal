@@ -6,17 +6,24 @@
 
                                             /* Header section */
 
-html {
-    height: 100%;
-}
 
 
 body {
     background-color: rgb(239, 245, 239);
     border-top: 50px solid rgb(186, 222, 197);
-    border-bottom: 50px solid rgb(186, 222, 197);
-    margin: auto;
+    /*border-bottom: 50px solid rgb(186, 222, 197);*/
+    margin: 0px;
 }
+
+main {
+    flex: 1;
+}
+
+
+header {
+    background-color: rgb(239, 245, 239);
+}
+
 
 
                                         /*. About me flexbox with picture and summary of me. */
@@ -51,4 +58,27 @@ body {
 #about-me-content {
     width: 75%;
     line-height: 2;
+}
+
+
+#about-me-back-to-home-button {
+    border-radius: 0px 50px 50px 0;
+    border: 3px solid #6b6d6b;
+    width: 200px;
+    height: 40px;
+    background-color: #6b6d6b;
+    font-size: 120%;
+    margin-top: 50px;
+}
+
+#about-me-back-to-home-link {
+    color: white;
+    text-decoration: none;
+    margin: auto;
+    line-height: .2;
+}
+
+
+#about-me-linkedin {
+    text-decoration: underline;
 }
