@@ -9,7 +9,7 @@ body {
     border-top: 50px solid rgb(186, 222, 197);
     /*border-bottom: 50px solid rgb(186, 222, 197);*/
     margin: auto;
-    padding-bottom: 500px;
+    padding-bottom: 400px;
 }
 
 header {
@@ -17,13 +17,12 @@ header {
 }
 
         #archive-back-to-home-button {
-            border-radius: 0px 50px 50px 0;
+            border-radius: 0 0 50px 0;
             border: 3px solid #6b6d6b;
             width: 200px;
             height: 40px;
             background-color: #6b6d6b;
             font-size: 120%;
-            margin-top: 50px;
         }
 
         #archive-back-to-home-link {
