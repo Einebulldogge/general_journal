@@ -13,6 +13,11 @@ main {
 }
 
 
+a {
+    text-decoration:underline;
+}
+
+
                                             /* Header section */
 
 
@@ -169,7 +174,7 @@ main {
 
 
 
-.article-A-pics {
+#articles-article-A-pics {
     width: 100%;
     height: auto;
     border:2px solid;
