@@ -17,7 +17,7 @@ button:hover, #article-menu-boxes:hover, #archive-articles:hover, #index-archive
     border-radius: 25px;
 }
 
-#commentary-link {
+#commentary-button {
     color: white;
     font-weight:500;
 }
