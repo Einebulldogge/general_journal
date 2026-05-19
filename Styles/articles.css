@@ -5,7 +5,6 @@ body {
     display: flex;
     flex-direction: column;
     margin: auto;
-    
 }
 
 main {
@@ -28,6 +27,7 @@ a {
     height: 40px;
     background-color: #6b6d6b;
     font-size: 120%;
+    font-weight: bold;
 }
 
 #articles-back-to-home-link {
@@ -50,9 +50,9 @@ a {
 #articles-title {
     color: #4e9364;
     font-size: 900%;
-    margin-top: 2%;
     font-weight: 1;
     padding-left: 15%;
+    padding-top: 20%;
     line-height: 90%;
     font-family: "Arial", serif;
 }
@@ -122,7 +122,7 @@ a {
     flex: 2;
     margin-top: 3%;
     margin-left: 0px;
-    margin-bottom: 100px;
+    margin-bottom: 70px;
     background-color: rgb(239, 245, 239);
     border-radius: 0 25px 25px 0;
     line-height: 2.0;
@@ -132,7 +132,7 @@ a {
 #articles-commentary {
     flex: 1;
     height: 600px;
-    margin-bottom: 100px;
+    margin-bottom: 70px;
     margin-right: 0px;
     background-color: rgb(186, 222, 197);
     border-radius: 25px 0 0 25px;

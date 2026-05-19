@@ -32,13 +32,13 @@ body {
         #index-header-divider {
             border-left: 4px solid #4e9364;
             height: 300px;
-            margin-top: 6.5%;
+            margin-top: 8%;
         }
 
         #index-headshot-container {
             display: block;
             padding-right: 5%;
-            padding-top: 2%;
+            padding-top: 3%;
             text-align: center;
             margin: auto;
             margin-top: 6%;
@@ -83,7 +83,7 @@ body {
             padding-top: 30px;
             padding-right: 20px;
             padding-left: 10px;
-            padding-bottom: 10px;
+            padding-bottom: 7px;
             border-right: 4px solid #6b6d6b;
             border-bottom: 4px solid #6b6d6b;
             border-radius: 0 0 50px 0;
@@ -91,7 +91,6 @@ body {
             height: 460px;
             overflow-y: auto;
             overflow-x: hidden;
-            margin-bottom: 10%;
             margin-top: -410px;
             scrollbar-color: #6f6f6d white;
             scrollbar-width: thin;
