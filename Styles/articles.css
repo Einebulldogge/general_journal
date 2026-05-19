@@ -183,3 +183,8 @@ a {
 li::marker {
     font-weight: bold;
 }
+
+
+#articles-sign-off {
+    text-decoration: none;
+}

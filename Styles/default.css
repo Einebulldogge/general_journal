@@ -15,13 +15,9 @@ button:hover, #article-menu-boxes:hover, #archive-articles:hover, #index-archive
     height: 30px;
     background-color: #4e9364;
     border-radius: 25px;
-}
-
-#commentary-button {
     color: white;
     font-weight:500;
 }
-
 
 a {
     text-decoration: none;
