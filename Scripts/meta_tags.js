@@ -4,6 +4,7 @@
     link.type = 'image/x-icon';
     link.rel = 'shortcut icon';
     link.href = "Images/favicon.png";
+    link.href = "../Images/favicon.png";
     document.getElementsByTagName('head')[0].appendChild(link);
 })();
 
@@ -15,20 +16,6 @@ fontLink.href = "https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100
 document.head.appendChild(fontLink);
 
 
-
-document.querySelectorAll('.commentary-link').forEach(link => {
-    link.addEventListeners('click', function(e) {
-        e.preventDefault();
-
-        const targetID = this.getAttribute('href');
-        const targetElement = document.querySelector(targetId);
-
-        if(targetElement) {
-            targetElement.scrollIntoView({
-            });
-        }
-    });
-});
 
 
 
