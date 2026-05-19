@@ -23,3 +23,12 @@ a {
     text-decoration: none;
 }
 
+#articles-sign-off {
+    text-decoration: none;
+}
+
+
+#articles-date {
+    color: #606160;
+    line-height: 1.7;
+}
