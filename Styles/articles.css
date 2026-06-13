@@ -142,6 +142,8 @@ a {
     overflow-y: auto;
     position: sticky;
     top: 6%;
+    scrollbar-color: rgb(186, 222, 197) rgb(186, 222, 197);
+    scrollbar-width: thin;
 }
 
 

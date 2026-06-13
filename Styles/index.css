@@ -92,7 +92,7 @@ body {
             overflow-y: auto;
             overflow-x: hidden;
             margin-top: -410px;
-            scrollbar-color: #6f6f6d white;
+            scrollbar-color: #6f6f6d #dddedd;
             scrollbar-width: thin;
             direction: rtl;
             position: fixed;
@@ -131,13 +131,13 @@ body {
                                 #article-thumbnails {
                                     width: 200px;
                                     height: 200px;
-                                    margin-top: -5px;
+                                    margin-top: -15px;
                                     border-radius: 0 0 25px 25px;
                                     border-top: 2px solid #6b6d6b;
                                 }
 
                                 #article-titles {
-                                    margin-top: 5px;
+                                    margin-top: 8px;
                                     color: rgb(250, 246, 236);
                                     text-align: center;
                                     text-decoration: none;
@@ -212,12 +212,13 @@ body {
                     overflow-y: auto;
                     position: sticky;
                     top: 6%;
+                    scrollbar-color: rgb(186, 222, 197) rgb(186, 222, 197);
+                    scrollbar-width: thin;
+                    
                 }
 
 
                                              /* UNIQUE ARTICLE FORMATTING */
-
-
 
 
 
