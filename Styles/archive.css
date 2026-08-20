@@ -134,11 +134,16 @@ header {
             height: 415px;
             overflow: clip;
             border-radius: 25px;
-            border: 4px solid #6b6d6b;
+            outline: 4px solid #6b6d6b;
+            outline-offset: 0px;
             box-shadow: 0 2px 2px;
             color: rgb(250, 246, 236);
             text-align: center;
         }
+
+                #archive-articles:hover {
+                    outline-offset: 12px;
+                }
 
         #archive-article-titles {
             height: 50px;
